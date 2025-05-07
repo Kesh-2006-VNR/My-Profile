@@ -4,7 +4,7 @@ function sayHello() {
 function Hello() {
     alert("Hi!");
 }
-function Mydetails() {
-alert("Keshavan");
+function My() {
+alert("Email: keshavans074@gmail.com");
    }
 
