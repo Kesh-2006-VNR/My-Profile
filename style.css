@@ -46,3 +46,44 @@ button:hover {
   transform: scale(1.05);
   transition: transform 0.3s ease-in-out;
 }
+
+.social-bar {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  background: #4169E1;
+  padding: 10px;
+  border-radius: 0 10px 10px 0;
+}
+.social-bar a {
+  display: block;
+  color: white;
+  margin: 5px 0;
+  text-decoration: none;
+}
+.skill-bar {
+  background: #eee;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 20px;
+}
+.skill-bar .fill {
+  background: #4169E1;
+  height: 100%;
+  text-align: right;
+  padding-right: 5px;
+  color: white;
+  line-height: 20px;
+  transition: width 1s ease-in-out;
+}
+#progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 4px;
+  background: #000000;
+  width: 0%;
+  z-index: 9999;
+}
+

@@ -19,6 +19,8 @@
   <div class="container">
     <section>
 
+
+
       <h2>About Me</h2>
      <p>I am a coder and programmer who enjoys solving real-world problems through code. My main programming languages are <strong>Python</strong> and <strong>Java</strong>. I enjoy building applications, experimenting with new technologies, and continuously learning to improve my skills.
   </p>
@@ -30,14 +32,27 @@
     <section>
       <h2>Skills</h2>
       <ul>
-        <li>Python Programming</li>
-    <li>Java Programming</li>
     <li>Object-Oriented Programming (OOP)</li>
     <li>Problem Solving & Algorithms</li>
     <li>Basic Web Development (HTML, CSS)(ongoing React-framework)</li>
     <li>GitHub contribution</li>
     <li>Debugging & Code Optimization</li>
       </ul>
+
+<div class="skill">
+  <p>Python</p>
+  <div class="skill-bar">
+    <div class="fill" style="width: 90%;">90%</div>
+  </div>
+</div>
+
+<div class="skill">
+  <p>Java</p>
+  <div class="skill-bar">
+    <div class="fill" style="width: 70%;">70%</div>
+  </div>
+</div>
+
     </section>
 
     <section>
@@ -54,9 +69,6 @@
 
  <li>Certified in “<strong>Python</strong>” course by “<strong>Infosys Springboard</strong>”.</li>
 <li>Completion on “<strong>JAVA</strong>” course .</li>
-<p></p>
-<p><a href="www.linkedin.com/in/keshavan-s-7044b62ba" target="_blank">LinkedIn</a> </p>
-<a href="https://github.com/Kesh-2006-VNR" target="_blank">GitHub</a>
 
 
 </p>
@@ -65,21 +77,41 @@
 </a>
     </section>
 
+<div id="progress-bar"></div>
+
+
+<div class="social-bar">
+  <a href="www.linkedin.com/in/keshavan-s-7044b62ba" target="_blank">LinkedIn</a>
+  <a href="https://github.com/Kesh-2006-VNR" target="_blank">GitHub</a>
+
+</div>
+
 <section>
-  <h2>Contact Me<button style="padding: 10px 20px; background-color: #4169E1; color: white; border: none; border-radius: 5px;onclick="My()">My details</button></h2>
+  <h2>Contact Me</h2>
   <form action="mailto:keshavans074@gmail.com" method="post" enctype="text/plain">
     <input type="text" name="name" placeholder="Your Name" required><br><br>
     <input type="email" name="email" placeholder="Your Email" required><br><br>
     <textarea name="message" placeholder="Your Message" rows="5" required></textarea><br><br>
     <button style="padding: 10px 20px; background-color: #4169E1; color: white; border: none; border-radius: 5px;type="submit">Send</button>
-  </form>
-</section>
 
-  </div>
+  </form>
+
+</section>
+<section>
+
+<h2>Leave a Message</h2>
+<textarea placeholder="Type your feedback..."></textarea><br>
+<button onclick="alert('Thanks for your feedback!')">Send</button>
+</section>
 
   <footer>
     <p>&copy; 2025 Keshavan All rights reserved.</p>
   </footer>
+
+  // Initialize Firebase
+  const app = firebase.initializeApp(firebaseConfig);
+  const database = firebase.database();
+</script>
   
 </body>
 
