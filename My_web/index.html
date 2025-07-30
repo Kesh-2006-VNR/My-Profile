@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Keshavan S - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="K7.png" alt="Keshavan Profile" class="profile-pic" />
+      <h1>KESHAVAN S</h1>
+      <h3>Programmer & Tech Enthusiast</h3>
+    </header>
+
+    <!-- About Me -->
+    <section class="about-me">
+      <h2>About Me</h2>
+      <p>I am a coder and programmer who enjoys solving real-world problems. My primary languages are <strong>Python</strong> and <strong>Java</strong>. I love experimenting with tech and continuously sharpening my skills.</p>
+      <p>My focus areas are software development, automation, and creating efficient solutions that improve everyday life.</p>
+    </section>
+
+    <!-- Education -->
+    <section class="education">
+      <h2>Education</h2>
+      <p>B.E. in Electrical and Electronics Engineering (2023–2027)<br />
+         PSNA College of Engineering and Technology, Dindigul</p>
+      <ul>
+        <li>Certified in <strong>Python</strong> by Infosys Springboard</li>
+        <li>Completed <strong>Java</strong> programming course</li>
+      </ul>
+    </section>
+
+    <!-- Skills -->
+    <section class="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>Object-Oriented Programming (OOP)</li>
+        <li>Problem Solving & Algorithms</li>
+        <li>Web Development (HTML, CSS, learning React)</li>
+        <li>GitHub Collaboration</li>
+        <li>Debugging & Code Optimization</li>
+      </ul>
+      <div class="skill">
+        <p>Python</p>
+        <div class="skill-bar"><div class="fill" style="width: 90%">90%</div></div>
+      </div>
+      <div class="skill">
+        <p>Java</p>
+        <div class="skill-bar"><div class="fill" style="width: 70%">70%</div></div>
+      </div>
+    </section>
+
+    <!-- Project -->
+    <section class="project">
+      <h2>Self-Balancing Electric Vehicle</h2>
+      <p>Designed for physically challenged individuals, this project proves that a vehicle can be stabilized using a <strong>Gyroscopic Model</strong>.</p>
+      <button class="project-btn" onclick="window.location.href='your-project-details.html'">
+  <span class="text">Let's Go!</span>
+  <span class="icon-wrap">
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none">
+      <path d="M5 12h14M13 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </span>
+</button>
+
+    </section>
+
+    <!-- Resume Download -->
+<div class="resume-download">
+  <button class="resume-btn">
+    <svg class="svgIcon" viewBox="0 0 384 512" xmlns="http://www.w3.org/2000/svg">
+      <path d="M169.4 470.6c12.5 12.5 32.8..." />
+    </svg>
+    <span>Download Resume</span>
+  </button>
+</div>
+
+
+    <!-- Social Links -->
+    <div class="social-bar">
+      <a href="https://www.linkedin.com/in/keshavan-s-7044b62ba" target="_blank">LinkedIn</a>
+      <a href="https://github.com/Kesh-2006-VNR" target="_blank">GitHub</a>
+    </div>
+
+    <!-- Contact Form -->
+    <section class="contact">
+      <h2>Contact Me</h2>
+      <p>Email: <a href="mailto:keshavans074@gmail.com">keshavans074@gmail.com</a></p>
+      <p>Phone: 8870582806</p>
+      <form action="mailto:keshavans074@gmail.com" method="post" enctype="text/plain">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button class="button" type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <!-- Feedback -->
+    <section class="feedback">
+      <h2>Leave a Message</h2>
+      <textarea placeholder="Type your feedback..."></textarea>
+      <button onclick="alert('Thanks for your feedback!')">Send</button>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2025 Keshavan. All rights reserved.</p>
+    </footer>
+  </div>
+
+  <div id="progress-bar"></div>
+  <script src="script.js"></script>
+</body>
+</html>
