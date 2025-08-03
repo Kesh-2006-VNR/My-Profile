@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap');
 
 body {
@@ -130,6 +131,25 @@ button,
   text-decoration: none;
 }
 
+button,
+.ppt-btn {
+  background: linear-gradient(to right, #0f59e2, #06f6d6);
+  color: white;
+  padding: 24px 50px;
+  font-size: 21px;
+  font-weight: 700;
+  border: none;
+  border-radius: 90px;
+  cursor: pointer;
+  transition: all 0.35s ease-in-out;
+  box-shadow: 0 18px 42px rgba(0, 0, 0, 0.28);
+  font-family: 'Outfit', sans-serif;
+  display: inline-flex;
+  align-items: center;
+  gap: 20px;
+  text-decoration: none;
+}
+
 button:hover,
 .resume-btn:hover {
   transform: translateY(-6px) scale(1.05);
@@ -141,6 +161,20 @@ button:hover,
   height: 28px;
   fill: white;
 }
+
+
+button:hover,
+.ppt-btn:hover {
+  transform: translateY(-6px) scale(1.05);
+  background: linear-gradient(to right, #06f6d6, #0f59e2);
+}
+
+.ppt-btn .svgIcon {
+  width: 28px;
+  height: 28px;
+  fill: white;
+}
+
 
 h3 {
   font-size: 32px;
@@ -231,6 +265,12 @@ h3 {
   margin: 100px 0;
 }
 
+.ppt-download {
+  display: flex;
+  justify-content: center;
+  margin: 100px 0;
+}
+
 .contact form {
   display: flex;
   flex-direction: column;
@@ -274,4 +314,13 @@ h3 {
   font-size: 21px;
   margin-bottom: 22px;
   font-family: 'Outfit', sans-serif;
+}
+
+.feature-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
