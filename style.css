@@ -72,6 +72,21 @@ section {
   margin-bottom: 100px;
 }
 
+h6 {
+  color: #102542;
+  font-size: 42px;
+
+  text-align: center;
+  padding-left: 30px;
+  margin-bottom: 48px;
+  font-weight: 700;
+  position: relative;
+  letter-spacing: 0.9px;
+  background: linear-gradient(to right, #00c9ff33, #00c9ff11);
+  border-radius: 10px;
+}
+
+
 h2 {
   color: #102542;
   font-size: 42px;
